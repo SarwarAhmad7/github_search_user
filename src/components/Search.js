@@ -32,9 +32,7 @@ const Search = () => {
               onChange={(e) => setUser(e.target.value)}
               required={true}
             />
-            {requests > 0 && !isloading && (
-              <button type="submit">search</button>
-            )}
+            <button type="submit">search</button>
           </div>
         </form>
         <h3>requests: {requests} / 60</h3>
